@@ -5,8 +5,15 @@ class More extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text('Favorites'),
+    return const Center(
+      child: Text(
+        'More',
+        style: TextStyle(
+          fontSize: 25,
+          color: Colors.white,
+        ),
+      ),
     );
   }
 }
+

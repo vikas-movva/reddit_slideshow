@@ -5,8 +5,14 @@ class Favorites extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text('Favorites'),
+    return const Center(
+      child: Text(
+        'Favorites',
+        style: TextStyle(
+          fontSize: 25,
+          color: Colors.white,
+        ),
+      ),
     );
   }
 }
